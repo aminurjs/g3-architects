@@ -81,7 +81,41 @@ nav ul li a{
     margin-bottom: 1.8rem;
 }
 
-
+/* Teams section styles here */
+section.teams{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5rem 4rem 7rem;
+    gap: 4.5rem;
+}
+section.teams .teams_img{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+}
+section.teams .teams_content{
+    max-width: 540px;
+}
+section.teams .teams_content h2{
+    color: #131313;
+    font-size: 2.8rem;
+    font-weight: 700;
+    margin-bottom: 1.25rem;
+}
+section.teams .teams_content h2 .quick_list{
+    color: #727272;
+    font-weight: 500;
+}
+section.teams .teams_content h2 .featured{
+    color: #FF900E;
+}
+section.teams .teams_content p{
+    color: #727272;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    margin-bottom: 2rem;
+}
 
 
 
@@ -110,6 +144,10 @@ nav ul li a{
         max-width: 100%;
     }
     .banner_content h1 {
-        font-size: 2.8rem;
+        font-size: 2.5rem;
+    }
+    .primary_btn {
+        padding: 1rem 2rem;
+        font-size: 1rem;
     }
 }
